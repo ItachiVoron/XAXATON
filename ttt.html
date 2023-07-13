@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Main Page</title>
+    <style>
+      .card a {
+        color: yellow; /* Меняет цвет ссылок на желтый */
+        margin: 0; /* Удаление отступа */
+      }
+      body {
+        background-color: black;
+        color: white;
+      }
+      img {
+        width: 275px;
+        height: 275px;
+      }
+      .images-row {
+        display: flex;
+        justify-content: space-between;
+      }
+      .card-text {
+        width: 275px; /* Ограничивает блок текста по ширине до 347px */
+        overflow-wrap: break-word; /* Позволяет словам переноситься на следующую строку, если они не соответствуют заданной ширине */
+        margin: 25;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="images-row" style="display: flex; justify-content: center;"> <!-- added margin-bottom for a space after the first block-->
+        <div class="card" style="width: 18rem; margin-right: 250px;">
+          <img src="1.jpg" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title" style="font-size: 25px;"><a href="second.html">Астероиды</a></h5> <!-- increase heading size -->
+             <p class="card-text" style="font-size: 18px;">Небольшой пример текста, который будет отслеживаться по названию карточки и составлять основную часть содержимого карточки.</p> <!-- increase text size -->
+           </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 25px;"><a href="second.html">Тайные планеты</a></h5> <!-- increase heading size -->
+            <p class="card-text" style="font-size: 18px;">Небольшой пример текста, который будет отслеживаться по названию карточки и составлять основую часть содержимого карточки.</p> <!-- increase text size -->
+          </div>
+        </div>
+    </div>
+    
+    <body>
+        <div class="images-row" style="display: flex; justify-content: center;">
+            <div class="card" style="width: 18rem; margin-right: 250px;">
+                <img src="3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 25px;"><a href="second.html">Глубокий космос</a></h5> <!-- increase heading size -->
+                    <p class="card-text" style="font-size: 18px;">Небольшой пример текста, который будет отслеживаться по названию карточки и составлять основную часть содержимого карточки.</p> <!-- increase text size -->
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 25px;"><a href="second.html">Космолеты</a></h5> <!-- increase heading size -->
+                    <p class="card-text" style="font-size: 18px;">Небольшой пример текста, который будет отслеживаться по названию карточки и составлять основую часть содержимого карточки.</p> <!-- increase text size -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
